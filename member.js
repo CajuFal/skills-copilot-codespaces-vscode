@@ -7,6 +7,7 @@ function skillsMember() {
     for (var i = 0; i < skillsListLength; i++) {
         skillsListString += "<li>" + skillsList[i] + "</li>";
     }
+    
     document.getElementById("skillsList").innerHTML = skillsListString;
     document.getElementById("memberName").innerHTML = member;
 }
